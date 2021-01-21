@@ -8,7 +8,7 @@ var svg = d3.select("body").append("svg")
 var color = d3.scale.category10()
 
 var force = d3.layout.force()
-    .gravity(.05)		// 노드 간의 중력
+    .gravity(.005)		// 노드 간의 중력
     .distance(150)	// 노드 간의 기본 거리
     .charge(-500)		// 서로 밀치고 당기는 힘
     .size([width, height])
