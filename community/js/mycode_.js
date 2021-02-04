@@ -15,7 +15,7 @@ var tooltip = d3.select("body")
   .style("opacity", 0);
   
   
-d3.json("citation_for_kor_patent.json", function(error, graph) {
+d3.json("/data/citation_for_kor_patent_1_.json", function(error, graph) {
   if (error) throw error;
   const svg = d3.select('svg'),
         width = +svg.attr('width'),
