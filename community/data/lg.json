@@ -1,7 +1,5 @@
 {
 "nodes":[
-{
-"nodes":[
 {"name":"JP1","group":1},
 {"name":"JP2","group":1},
 {"name":"KR1","group":2},
