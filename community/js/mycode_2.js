@@ -13,7 +13,7 @@ var force = d3.layout.force()
     .charge(-150)		// 서로 밀치고 당기는 힘
     .size([width, height])
 
-d3.json("data/lg.json", function(error, graph) {
+d3.json("data/citation_for_kor_patent_1.json.json", function(error, graph) {
   force
       .nodes(graph.nodes)
       .links(graph.links)
